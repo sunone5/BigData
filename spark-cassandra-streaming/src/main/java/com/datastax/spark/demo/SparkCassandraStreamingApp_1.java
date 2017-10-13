@@ -49,8 +49,7 @@ public class SparkCassandraStreamingApp_1 {
 
 	SparkConf conf = new SparkConf();
 	conf.setAppName(prop.getProperty("com.smcc.spark.app.name"));
-	conf.setMaster("local[*]");
-	//conf.set("spark.cassandra.connection.host", "54.91.172.144");
+	conf.setMaster("local[*]");	
 	conf.set("spark.cassandra.connection.host", prop.getProperty("com.smcc.app.cassandra.host"));
 	conf.set("spark.cassandra.connection.port", prop.getProperty("com.smcc.app.cassandra.port"));	
 	
