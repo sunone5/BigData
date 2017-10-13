@@ -1,0 +1,6 @@
+Please Change "\spark-cassandra-streaming\src\main\resources\config.properties" file's following directives 
+maching to your SERVER IP & PORT.
+-------------------------------------
+com.smcc.app.cassandra.host={YOUR HOST IP}
+com.smcc.app.cassandra.port={PORT}
+
